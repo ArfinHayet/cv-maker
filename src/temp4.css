@@ -1,0 +1,14 @@
+.flexbox{
+	width:100%;
+	display:grid;
+	grid-template-columns: auto auto;
+	padding:0px;
+	margin:0px;
+}
+
+
+
+
+/*.fbox{
+	width:100%;
+}*/
