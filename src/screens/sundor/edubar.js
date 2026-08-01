@@ -32,7 +32,7 @@ function Edubar({icon,eduinfo,ppointList,templates,theme}){
 
                   <i class={icon} style={{'color':'white'}}></i>
                 </div>
-                <div>
+                {/* <div>
                   <div>
                     <h6><i class={icon}></i>H.S.C, Chittagong Model School & College</h6>
                   </div>
@@ -53,7 +53,7 @@ function Edubar({icon,eduinfo,ppointList,templates,theme}){
                   </ul>
 
                   
-                </div>
+                </div> */}
            
                 
           

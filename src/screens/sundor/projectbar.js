@@ -9,6 +9,19 @@ function Projectbar({icon,projectlist,ppointList,templates,theme}){
             <>
              
 
+
+             <div>
+                <div>
+                  <h6><i class={icon}></i>Kijiji - Advertisement Automation tool</h6>
+                </div>
+                <ul>
+                  <li>Client - Kijiji - Buy, Sell & Save with Canada's #1 Local Marketplaces ...</li>
+                  <li>Workplace- Prime Tech Solutions Ltd.</li>
+                  <li>Link- <a href="https://advertise.kijiji.ca/">https://advertise.kijiji.ca/</a> </li>
+                  <li>Technology metrics - React,Nodejs,Mysql, Aws - Cognito, Lamda, Sqs,</li>
+                </ul>
+              </div>
+
              <div>
                 <div>
                   <h6><i class={icon}></i>OTA - B2C,B2B Client Portal</h6>
@@ -66,7 +79,7 @@ function Projectbar({icon,projectlist,ppointList,templates,theme}){
               </div> */}
 
 
-              <div>
+              {/* <div>
                 <div>
                   <h6><i class={icon}></i>Saint Inu - Crypto fundraiser</h6>
                 </div>
@@ -76,23 +89,23 @@ function Projectbar({icon,projectlist,ppointList,templates,theme}){
                   <li>Link- <a href="https://saintfi.live/">https://saintfi/live</a></li>
                   <li>Technology metrics - Solidity, Nodejs, Hardhat</li>
                 </ul>
-              </div>
+              </div> */}
 
 
               <div>
                 <div>
-                  <h6><i class={icon}></i>Accessories Bazar</h6>
+                  <h6><i class={icon}></i>IT Phonestore e-commerce site/</h6>
                 </div>
                 <ul>
-                  <li>Client - Accessories Bazar</li>
-                  <li>Link- <a href="https://accessories-bazar.com/">Accessories Bazar</a></li>
+                  <li>Client - IT Phonestore </li>
+                  <li>Link- <a href="https://itphonestore.com/">IT Phonestore </a></li>
                   <li>Technology metrics - Node.js, React</li>
                 </ul>
               </div>
 
 
 
-              <div>
+              {/* <div>
                 <div>
                   <h6><i class={icon}></i>Project Management Software</h6>
                 </div>
@@ -102,7 +115,7 @@ function Projectbar({icon,projectlist,ppointList,templates,theme}){
                   <li> Workplace - mPair Technologies Ltd.</li>
                   <li>Technology metrics - Vue.js, Node.js, Mysql</li>
                 </ul>
-              </div>
+              </div> */}
 
 
 
