@@ -10,14 +10,14 @@ function Skillbar({icon,templates,theme}){
 	          <div class="scon">
                 <div class="skills dart">Dart</div>
               </div>  
-              <div class="scon">
+              {/* <div class="scon">
                 <div class="skills php">Php</div>
-              </div>
+              </div> */}
               {/* <div class="scon">
                 <div class="skills mysql">Software Quality Assurance</div>
               </div> */}
               <div class="scon">
-                <div class="skills mongodb">Mongodb</div>
+                <div class="skills net">Php</div>
               </div>
               <div class="scon">
                 <div class="skills server">Mysql</div>

@@ -2,22 +2,42 @@ import Titles from './title'
 function Workbar({icon,workinfo,wpointList,templates,theme}){
 	return(
 		<div class="bg-white p-2 sundorElm">
-            <Titles templates={templates} titletxt='Work history (3 years)' icon={<i class="fa fa-history"></i>} theme={theme}/>
+            <Titles templates={templates} titletxt='Work history' icon={<i class="fa fa-history"></i>} theme={theme}/>
             {workinfo.length === 0 ? 
             <>
+
+
+                <div>
+                  <div>
+                    <h6><i class={icon}></i>Mynztrip.com 
+                    <br/><span className='txt-grey'>Cube inventure, Banani Dhaka</span></h6>
+                    <span className='midHead'>Senior Software Engineer  | 15/04/2026 - Present</span>
+                    
+                  </div>
+
+                  <ul>
+                    <li>Worked in OTA project</li>
+                    <li>Worked in OTA Backoffice management system</li>
+                    <li>Worked in large scale ERP software</li>
+                    
+                  </ul>
+                </div>
+
+
 
                 <div>
                   <div>
                     <h6><i class={icon}></i>Prime Tech Solutions Ltd 
                     <br/><span className='txt-grey'>TK Bhaban, Karwanbazar Dhaka</span></h6>
-                    <span className='midHead'>Software Engineer  | 01/02/2023 - Present</span>
+                    <span className='midHead'>Software Engineer  | 01/02/2023 - 14/04/2026</span>
                     
                   </div>
 
                   <ul>
-                    <li>Worked in OTA portal frontend with Angular</li>
+                    <li>Worked in advertisement automations project using nodejs , React</li>
                     <li>Worked in blockchain transaction process with node.js</li>
-                    <li>Worked in frontend developement using React / Angular</li>
+                    <li>Worked in OTA portal with Angular</li>
+                    
                   </ul>
                 </div>
 
