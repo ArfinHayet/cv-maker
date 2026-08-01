@@ -1,14 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import './temp2.css';
-import './temp3.css';
-import './temp4.css';
-import Dashboard from './screens/dashboard.js';
+import Dashboard from './screens/Dashboard.jsx';
 
 function App() {
   return (
     <div className="App">
-      <Dashboard/>
+      <Dashboard />
     </div>
   );
 }
