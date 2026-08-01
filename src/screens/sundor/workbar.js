@@ -11,7 +11,7 @@ function Workbar({icon,workinfo,wpointList,templates,theme}){
                   <div>
                     <h6><i class={icon}></i>Mynztrip.com 
                     <br/><span className='txt-grey'>Cube inventure, Banani Dhaka</span></h6>
-                    <span className='midHead'>Software Engineer  | 15/04/2026 - Present</span>
+                    <span className='midHead'>Senior Software Engineer  | 15/04/2026 - Present</span>
                     
                   </div>
 

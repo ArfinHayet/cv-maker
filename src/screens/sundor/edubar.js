@@ -14,7 +14,7 @@ function Edubar({icon,eduinfo,ppointList,templates,theme}){
                   </div>
                   <ul>
                     <li>Department - Institute of Information Technology(IIT)</li>
-                    <li>Ongoing</li>
+                    <li>Graduated in 2026</li>
                   </ul>
 
                   <i class={icon} style={{'color':'white'}}></i>
